@@ -1,0 +1,77 @@
+body {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+}
+
+.form-username {
+   border: 1.5 px solid black;
+   padding: 2rem;
+   width: 80%;
+   display: block;
+   max-width: 300px;
+}
+
+.form-username h1 {
+   margin: 0;
+   margin-bottom: 2px;
+   font-size: 1.2rem;
+}
+
+.form-username p {
+   font-weight: 300;
+   font-size: 0.8rem;
+}
+
+#username-input {
+   border: 1px solid black;
+   padding: 0.25rem 0.5rem;
+   color: black;
+   width: 90%;
+}
+
+#join-btn {
+   cursor: pointer;
+   color: white;
+   padding: 0.5rem 1.5rem;
+   margin-top: 1rem;
+   border: 0;
+}
+
+.chatroom-container {
+   display: block;
+   height: 100vh;
+   width: 80%;
+}
+
+.chatroom-header {
+   background-color: black;
+   color: white;
+   padding: 0.5rem;
+   font-size: 2rem;
+}
+
+.messages {
+   display: flex;
+   flex-direction: column;
+   height: 85vh;
+}
+
+.message {
+   background-color: #e1e1e1;
+   width: fit-content;
+   padding: 0.5rem;
+   margin: 0.5rem;
+}
+
+.sent {
+   align-self: flex-end;
+}
+
+#message-input {
+   width: 90%;
+}
